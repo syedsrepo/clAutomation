@@ -1,0 +1,3 @@
+[console_scripts]
+demowebapp = demowebapp.__main__:main
+

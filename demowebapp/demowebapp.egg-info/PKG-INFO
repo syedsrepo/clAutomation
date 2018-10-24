@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: demowebapp
+Version: 0.0.2
+Summary: Demo web application
+Home-page: https://github.com/syedsrepo/clAutomation
+Author: syeds
+Author-email: syedsalahuddin@hcl.com
+License: UNKNOWN
+Description: # Demo Web application Package
+        
+        This is a simple package to test the CLOSED LOOP AUTOMATION
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
