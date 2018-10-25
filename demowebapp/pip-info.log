@@ -1,0 +1,10 @@
+Thu Oct 25 09:23:37 IST 2018
+Name: Flask
+Version: 1.0.2
+Summary: A simple framework for building complex web applications.
+Home-page: https://www.palletsprojects.com/p/flask/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD
+Location: /usr/local/lib/python2.7/dist-packages
+Requires: Werkzeug, click, Jinja2, itsdangerous

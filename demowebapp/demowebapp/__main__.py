@@ -18,5 +18,9 @@ def index():
     time.sleep(.005)
     return Response(retval, status=200, mimetype='text/plain')
 
+def main():
+    print("Main Function")
+    app.run(host= '0.0.0.0', port=sys.argv[1], debug=True, threaded=True)
+
 if __name__ == '__main__':
-    app.run(host= '0.0.0.0', port=sys.argv[1], debug=True)
+    app.run(host= '0.0.0.0', port=sys.argv[1], debug=True, threaded=True)

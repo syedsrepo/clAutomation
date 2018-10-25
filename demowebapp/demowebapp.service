@@ -1,0 +1,20 @@
+[Unit]
+Description=demowebapp service
+[Service]
+User=root
+# The configuration file application.properties should be here:
+
+#change this to your workspace
+WorkingDirectory=/home/syeds/git/clAutomation/demowebapp
+
+#path to executable. 
+#executable is a bash script which calls jar fileExecStart=/home/ubuntu/workspace/my-webapp
+ExecStart=/home/syeds/git/clAutomation/demowebapp/runDemoWebApp.sh
+
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
