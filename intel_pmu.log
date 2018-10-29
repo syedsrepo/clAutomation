@@ -1,0 +1,10 @@
+syeds@syeds-vm:/var/log$ tail -f syslog | grep pmu
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-cpu-clock 9889958688492 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-task-clock 9889958690423 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-context-switches 47938834 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-cpu-migrations 0 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-page-faults 10170695 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-minor-faults 10158496 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-major-faults 12083 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-alignment-faults 0 1540458674
+Oct 25 14:41:13 syeds-vm collectd[1122]: write_log values:#012syeds-vm.intel_pmu-0.counter-emulation-faults 0 1540458674
