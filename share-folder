@@ -1,0 +1,2 @@
+Create a sharefolder in Oracle Virtual Box with name vm-share-folder
+sudo mount -t vboxsf vm-share-folder /home/syeds/share-folder/
